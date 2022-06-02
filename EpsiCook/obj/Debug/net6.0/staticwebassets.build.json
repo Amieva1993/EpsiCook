@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "/UuRFpIzI2Aol5xhzag7hMAE57nHnGTKDnkfkApQvx0=",
+  "Source": "EpsiCook",
+  "BasePath": "_content/EpsiCook",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EpsiCook\\wwwroot",
+      "Source": "EpsiCook",
+      "ContentRoot": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "BasePath": "_content/EpsiCook",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\CSS\\site.css",
+      "SourceId": "EpsiCook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "BasePath": "_content/EpsiCook",
+      "RelativePath": "CSS/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\Index.html",
+      "SourceId": "EpsiCook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "BasePath": "_content/EpsiCook",
+      "RelativePath": "Index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\JS\\site.js",
+      "SourceId": "EpsiCook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "BasePath": "_content/EpsiCook",
+      "RelativePath": "JS/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\JS\\site.js"
+    }
+  ]
+}
