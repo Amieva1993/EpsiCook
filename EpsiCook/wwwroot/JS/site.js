@@ -2,16 +2,25 @@
 let todos = [];
 
 function getItems() {
+    console.log("test")
     fetch(uri)
         .then(response => response.json())
         .then(data => _displayItems(data))
         .catch(error => console.error('Unable to get items.', error));
 }
 
+function isEmpty(value) {
+    return (value == null || value.length === 0);
+}
+
 function addItem() {
     const addentreeTextbox = document.getElementById('add-Entree');
     const addplatTextbox = document.getElementById('add-Plat');
     const adddessertTextbox = document.getElementById('add-Dessert');
+
+    if (isEmpty(addentreeTextbox.value.trim() ) {
+        console.log("test")
+    }
 
     const item = {
         entree: addentreeTextbox.value.trim(),
@@ -101,7 +110,6 @@ function _displayItems(data) {
 
     data.forEach(item => {
         let isCompleteCheckbox = document.createElement('input');
-        isCompleteCheckbox.type = 'checkbox';
         isCompleteCheckbox.disabled = true;
         isCompleteCheckbox.checked = item.isComplete;
 

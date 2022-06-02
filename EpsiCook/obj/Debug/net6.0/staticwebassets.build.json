@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/UuRFpIzI2Aol5xhzag7hMAE57nHnGTKDnkfkApQvx0=",
+  "Hash": "qjhU/XXHsgzL8mxCjNv+yVXIzpxgPuKTpVoVsB2TRyM=",
   "Source": "EpsiCook",
   "BasePath": "_content/EpsiCook",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CSS\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\CSS\\style.css",
+      "SourceId": "EpsiCook",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "BasePath": "_content/EpsiCook",
+      "RelativePath": "CSS/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\style.css"
     },
     {
       "Identity": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\wwwroot\\Index.html",

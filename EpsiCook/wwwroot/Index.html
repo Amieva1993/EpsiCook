@@ -1,48 +1,58 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>EspiCook</title>
-    <link rel="stylesheet" href="CSS/site.css" />
+    <title>Table 09</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="CSS/style.css">
+
 </head>
 <body>
-    <h1>Commander</h1>
-    <h3>Add</h3>
-    <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
-        <input type="text" id="add-Entree" placeholder="Entree">
-        <input type="text" id="add-Plat" placeholder="Plat">
-        <input type="text" id="add-Dessert" placeholder="Dessert">
-        <input type="submit" value="Add">
-    </form>
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">Epsi Cook</h2>
+                </div>
+            </div>
+            <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+                <input type="text" id="add-Entree" placeholder="Entree">
+                <input type="text" id="add-Plat" placeholder="Plat">
+                <input type="text" id="add-Dessert" placeholder="Dessert">
+                <input type="text" id="add-Drink" placeholder="Boisson">
+                <input type="submit" value="Envoyer en préparation">
+            </form>
 
-    <div id="editForm">
-        <h3>Edit</h3>
-        <form action="javascript:void(0);" onsubmit="updateItem()">
-            <input type="hidden" id="edit-id">
-            <input type="checkbox" id="edit-isComplete">
-            <input type="text" id="edit-Entree">
-            <input type="text" id="edit-Plat">
-            <input type="text" id="edit-Dessert">
-            <input type="submit" value="Save">
-            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
-        </form>
-    </div>
+            <p id="counter"></p>
 
-    <p id="counter"></p>
-
-    <table>
-        <tr>
-            <th>Statut</th>
-            <th>Entree</th>
-            <th>Plat</th>
-            <th>Dessert</th>
-        </tr>
-        <tbody id="todos"></tbody>
-    </table>
-
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="table-wrap">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Statut</th>
+                                    <th>Entree</th>
+                                    <th>Plat</th>
+                                    <th>Dessert</th>
+                                </tr>
+                            </thead>
+                            <tbody id="todos"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="JS/site.js" asp-append-version="true"></script>
     <script type="text/javascript">
         getItems();
     </script>
 </body>
 </html>
+
