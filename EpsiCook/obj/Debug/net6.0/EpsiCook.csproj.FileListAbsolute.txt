@@ -528,6 +528,13 @@ C:\Source\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.dll
 C:\Source\EpsiCook\EpsiCook\obj\Debug\net6.0\ref\EpsiCook.dll
 C:\Source\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.pdb
 C:\Source\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.genruntimeconfig.cache
+C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.csproj.AssemblyReference.cache
+C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.AssemblyInfoInputs.cache
+C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.AssemblyInfo.cs
+C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.csproj.CoreCompileInputs.cache
+C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\bin\Debug\net6.0\appsettings.json
 C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\bin\Debug\net6.0\EpsiCook.staticwebassets.runtime.json
@@ -777,13 +784,6 @@ C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\bin\Debug\net6.0\runtimes\wi
 C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.csproj.AssemblyReference.cache
-C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.AssemblyInfoInputs.cache
-C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.AssemblyInfo.cs
-C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.csproj.CoreCompileInputs.cache
-C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\EpsiCook.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Amieva\Desktop\Enzo\EPSI\EpsiCook\EpsiCook\obj\Debug\net6.0\scopedcss\bundle\EpsiCook.styles.css
