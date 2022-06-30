@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\EpsiCook\\EpsiCook\\EpsiCook.csproj": {}
+    "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\EpsiCook.csproj": {}
   },
   "projects": {
-    "C:\\Source\\EpsiCook\\EpsiCook\\EpsiCook.csproj": {
+    "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\EpsiCook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\EpsiCook\\EpsiCook\\EpsiCook.csproj",
+        "projectUniqueName": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\EpsiCook.csproj",
         "projectName": "EpsiCook",
-        "projectPath": "C:\\Source\\EpsiCook\\EpsiCook\\EpsiCook.csproj",
-        "packagesPath": "C:\\Users\\enamieva\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\EpsiCook\\EpsiCook\\obj\\",
+        "projectPath": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\EpsiCook.csproj",
+        "packagesPath": "C:\\Users\\Amieva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\enamieva\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Amieva\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/eqiom/_packaging/EqiomNuget/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -47,7 +42,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[6.0.5, )"
+              "version": "[6.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -86,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,4 @@
-namespace EpsiCook
+amespace EpsiCook
 {
     public class WeatherForecast
     {
