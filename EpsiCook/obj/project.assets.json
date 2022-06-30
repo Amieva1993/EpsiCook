@@ -9687,19 +9687,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amieva\\.nuget\\packages\\": {}
+    "C:\\Users\\enamieva\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\EpsiCook.csproj",
+      "projectUniqueName": "C:\\Source\\EpsiCook\\EpsiCook\\EpsiCook.csproj",
       "projectName": "EpsiCook",
-      "projectPath": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\EpsiCook.csproj",
-      "packagesPath": "C:\\Users\\Amieva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Amieva\\source\\repos\\EpsiCook\\EpsiCook\\obj\\",
+      "projectPath": "C:\\Source\\EpsiCook\\EpsiCook\\EpsiCook.csproj",
+      "packagesPath": "C:\\Users\\enamieva\\.nuget\\packages\\",
+      "outputPath": "C:\\Source\\EpsiCook\\EpsiCook\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Amieva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\enamieva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9707,7 +9712,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/eqiom/_packaging/EqiomNuget/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -9766,7 +9772,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
       }
     }
   }

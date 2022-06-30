@@ -17,15 +17,16 @@ function addItem() {
     const addentreeTextbox = document.getElementById('add-Entree');
     const addplatTextbox = document.getElementById('add-Plat');
     const adddessertTextbox = document.getElementById('add-Dessert');
+    const addDrinkTextbox = document.getElementById('add-Drink');
+    const Iscompleteds = "test";
 
-    if (isEmpty(addentreeTextbox.value.trim() ) {
-        console.log("test")
-    }
 
     const item = {
         entree: addentreeTextbox.value.trim(),
         plat: addplatTextbox.value.trim(),
-        dessert: adddessertTextbox.value.trim()
+        dessert: adddessertTextbox.value.trim(),
+        drink: addDrinkTextbox.value.trim(),
+        iscompleted: Iscompleteds.value
     };
 
     fetch(uri, {
@@ -42,6 +43,7 @@ function addItem() {
             addentreeTextbox.value = '';
             addplatTextbox.value = '';
             adddessertTextbox.value = '';
+            addDrinkTextbox.value = '';
         })
         .catch(error => console.error('Unable to add item.', error));
 }
@@ -112,6 +114,10 @@ function _displayItems(data) {
         let isCompleteCheckbox = document.createElement('input');
         isCompleteCheckbox.disabled = true;
         isCompleteCheckbox.checked = item.isComplete;
+        if (this.isComplete == 0) {
+            isCompleteCheckbox.value = 'Commande Enregistrée';
+
+        }
 
         let tr = tBody.insertRow();
 
@@ -129,6 +135,10 @@ function _displayItems(data) {
         let td4 = tr.insertCell(3);
         let textNode2 = document.createTextNode(item.dessert);
         td4.appendChild(textNode2);
+
+        let td5 = tr.insertCell(4);
+        let textNode3 = document.createTextNode(item.drink);
+        td5.appendChild(textNode3);
     });
 
     todos = data;
