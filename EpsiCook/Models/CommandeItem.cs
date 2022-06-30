@@ -8,6 +8,7 @@
         public string? Plat { get; set; }
         public string? Dessert { get; set; }
         public string? Drink { get; set; }
-        public string? isCompleted { get; set; }
+        public int? isCompleted { get; set; }
+        public string? NumberTable { get; set; }
     }
 }

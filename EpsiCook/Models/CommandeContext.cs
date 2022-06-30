@@ -9,6 +9,6 @@ namespace EpsiCook.Models
         {
         }
 
-        public DbSet<CommandeItem> CommandeItem { get; set; } = null!;
+        public DbSet<CommandeItem> CommandeItem { get; set; }
     }
 }

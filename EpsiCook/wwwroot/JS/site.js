@@ -18,15 +18,19 @@ function addItem() {
     const addplatTextbox = document.getElementById('add-Plat');
     const adddessertTextbox = document.getElementById('add-Dessert');
     const addDrinkTextbox = document.getElementById('add-Drink');
-    const Iscompleteds = "test";
+    const addNumberTableTextbox = document.getElementById('add-NumberTable');
+    const IsCompleted = 0;
+    const itemId = 0;
 
 
     const item = {
+        id: parseInt(itemId, 10),
+        numbertable: addNumberTableTextbox.value.trim(),
         entree: addentreeTextbox.value.trim(),
         plat: addplatTextbox.value.trim(),
         dessert: adddessertTextbox.value.trim(),
         drink: addDrinkTextbox.value.trim(),
-        iscompleted: Iscompleteds.value
+        isCompleted: IsCompleted,
     };
 
     fetch(uri, {
@@ -40,6 +44,7 @@ function addItem() {
         .then(response => response.json())
         .then(() => {
             getItems();
+            addNumberTableTextbox.value = '';
             addentreeTextbox.value = '';
             addplatTextbox.value = '';
             adddessertTextbox.value = '';
@@ -48,33 +53,12 @@ function addItem() {
         .catch(error => console.error('Unable to add item.', error));
 }
 
-function deleteItem(id) {
-    fetch(`${uri}/${id}`, {
-        method: 'DELETE'
-    })
-        .then(() => getItems())
-        .catch(error => console.error('Unable to delete item.', error));
-}
-
-function displayEditForm(id) {
-    const item = todos.find(item => item.id === id);
-
-    document.getElementById('edit-Entree').value = item.Entree;
-    document.getElementById('edit-Plat').value = item.Plat;
-    document.getElementById('edit-Dessert').value = item.Dessert;
-    document.getElementById('edit-id').value = item.id;
-    document.getElementById('edit-isComplete').checked = item.isComplete;
-    document.getElementById('editForm').style.display = 'block';
-}
 
 function updateItem() {
+    IsCompleted=1
     const itemId = document.getElementById('edit-id').value;
     const item = {
-        id: parseInt(itemId, 10),
-        isComplete: document.getElementById('edit-isComplete').checked,
-        Entree: document.getElementById('edit-Entree').value.trim(),
-        Plat: document.getElementById('edit-Plat').value.trim(),
-        Dessert: document.getElementById('edit-Dessert').value.trim(),
+        isComplete: IsCompleted,
     };
 
     fetch(`${uri}/${itemId}`, {
@@ -87,14 +71,6 @@ function updateItem() {
     })
         .then(() => getItems())
         .catch(error => console.error('Unable to update item.', error));
-
-    closeInput();
-
-    return false;
-}
-
-function closeInput() {
-    document.getElementById('editForm').style.display = 'none';
 }
 
 function _displayCount(itemCount) {
@@ -102,6 +78,7 @@ function _displayCount(itemCount) {
 
     document.getElementById('counter').innerText = `${itemCount} ${name}`;
 }
+
 
 function _displayItems(data) {
     const tBody = document.getElementById('todos');
@@ -114,9 +91,15 @@ function _displayItems(data) {
         let isCompleteCheckbox = document.createElement('input');
         isCompleteCheckbox.disabled = true;
         isCompleteCheckbox.checked = item.isComplete;
-        if (this.isComplete == 0) {
-            isCompleteCheckbox.value = 'Commande Enregistrée';
 
+        if (item.isCompleted == 0) {
+            isCompleteCheckbox.value = 'Commande Enregistrée';
+        }
+        else if (item.isCompleted == 1) {
+            isCompleteCheckbox.value = 'En préparation';
+        }
+        else if (item.isCompleted == 2) {
+            isCompleteCheckbox.value = 'Livré';
         }
 
         let tr = tBody.insertRow();
@@ -125,20 +108,29 @@ function _displayItems(data) {
         td1.appendChild(isCompleteCheckbox);
 
         let td2 = tr.insertCell(1);
-        let textNode = document.createTextNode(item.entree);
+        let textNode = document.createTextNode(item.id);
         td2.appendChild(textNode);
 
         let td3 = tr.insertCell(2);
-        let textNode1 = document.createTextNode(item.plat);
+        let textNode1 = document.createTextNode(item.numberTable);
         td3.appendChild(textNode1);
 
         let td4 = tr.insertCell(3);
-        let textNode2 = document.createTextNode(item.dessert);
+        let textNode2 = document.createTextNode(item.entree);
         td4.appendChild(textNode2);
 
         let td5 = tr.insertCell(4);
-        let textNode3 = document.createTextNode(item.drink);
+        let textNode3 = document.createTextNode(item.plat);
         td5.appendChild(textNode3);
+
+        let td6 = tr.insertCell(5);
+        let textNode4 = document.createTextNode(item.dessert);
+        td6.appendChild(textNode4);
+
+        let td7 = tr.insertCell(6);
+        let textNode5 = document.createTextNode(item.drink);
+        td7.appendChild(textNode5);
+
     });
 
     todos = data;

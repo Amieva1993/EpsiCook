@@ -21,6 +21,7 @@
                 </div>
             </div>
             <form action="javascript:void(0);" method="POST" onsubmit="addItem()">
+                <input type="text" id="add-NumberTable" placeholder="Numéro de table">
                 <input type="text" id="add-Entree" placeholder="Entree">
                 <input type="text" id="add-Plat" placeholder="Plat">
                 <input type="text" id="add-Dessert" placeholder="Dessert">
@@ -37,6 +38,8 @@
                             <thead>
                                 <tr>
                                     <th>Statut</th>
+                                    <th>ID</th>
+                                    <th>Table</th>
                                     <th>Entree</th>
                                     <th>Plat</th>
                                     <th>Dessert</th>
@@ -45,6 +48,13 @@
                             </thead>
                             <tbody id="todos"></tbody>
                         </table>
+                    </div>
+                    <div id="editForm">
+                        <h3>Edit</h3>
+                        <form action="javascript:void(0);" onsubmit="updateItem()">
+                            <input type="text" id="edit-id">
+                            <input type="submit" value="Save">
+                        </form>
                     </div>
                 </div>
             </div>
