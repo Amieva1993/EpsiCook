@@ -58,7 +58,7 @@ function updateItem() {
     IsCompleted=1
     const itemId = document.getElementById('edit-id').value;
     const item = {
-        isComplete: IsCompleted,
+        isCompleted: IsCompleted,
     };
 
     fetch(`${uri}/${itemId}`, {

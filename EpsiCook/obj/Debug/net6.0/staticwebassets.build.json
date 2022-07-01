@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SrEWW6FSCHI4njxNiJDMNFNG+fCQQ54AGd2GbYOmwr4=",
+  "Hash": "O03gOwLDTEiG6UZeLC8oW/bAAaVu6+Kt+KAL74YU58E=",
   "Source": "EpsiCook",
   "BasePath": "_content/EpsiCook",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "EpsiCook\\wwwroot",
       "Source": "EpsiCook",
-      "ContentRoot": "C:\\Source\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\wwwroot\\",
       "BasePath": "_content/EpsiCook",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Source\\EpsiCook\\EpsiCook\\wwwroot\\CSS\\site.css",
+      "Identity": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\wwwroot\\CSS\\site.css",
       "SourceId": "EpsiCook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Source\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\wwwroot\\",
       "BasePath": "_content/EpsiCook",
       "RelativePath": "CSS/site.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\CSS\\site.css"
     },
     {
-      "Identity": "C:\\Source\\EpsiCook\\EpsiCook\\wwwroot\\CSS\\style.css",
+      "Identity": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\wwwroot\\CSS\\style.css",
       "SourceId": "EpsiCook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Source\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\wwwroot\\",
       "BasePath": "_content/EpsiCook",
       "RelativePath": "CSS/style.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\CSS\\style.css"
     },
     {
-      "Identity": "C:\\Source\\EpsiCook\\EpsiCook\\wwwroot\\Index.html",
+      "Identity": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\wwwroot\\Index.html",
       "SourceId": "EpsiCook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Source\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\wwwroot\\",
       "BasePath": "_content/EpsiCook",
       "RelativePath": "Index.html",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Index.html"
     },
     {
-      "Identity": "C:\\Source\\EpsiCook\\EpsiCook\\wwwroot\\JS\\site.js",
+      "Identity": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\wwwroot\\JS\\site.js",
       "SourceId": "EpsiCook",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Source\\EpsiCook\\EpsiCook\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Amieva\\Desktop\\Enzo\\EPSI\\EpsiCook\\EpsiCook\\wwwroot\\",
       "BasePath": "_content/EpsiCook",
       "RelativePath": "JS/site.js",
       "AssetKind": "All",
