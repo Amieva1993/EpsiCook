@@ -52,17 +52,25 @@ namespace EpsiCook.Controllers
         // PUT: api/CommandeItems/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCommandeItem(int id, CommandeItem commandeItem)
+        public async Task<IActionResult> PutCommandeItem(int id)
         {
-            if (id != commandeItem.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(commandeItem).State = EntityState.Modified;
 
             try
             {
+                CommandeItem commandeItem = _context.CommandeItem.FirstOrDefault(w => w.Id == id);
+
+                if (commandeItem != null)
+                {
+                    if (commandeItem.isCompleted == 0)
+                    {
+                        commandeItem.isCompleted = 1;
+
+                    }
+                    else if (commandeItem.isCompleted == 1) {
+                        commandeItem.isCompleted = 2;
+
+                    }
+                }
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)

@@ -69,7 +69,10 @@ function updateItem() {
         },
         body: JSON.stringify(item)
     })
-        .then(() => getItems())
+        .then(() => {
+            getItems();
+            document.getElementById('edit-id').value = "";
+        })
         .catch(error => console.error('Unable to update item.', error));
 }
 
